@@ -1,0 +1,295 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T20:12:08.282Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "walmart-arama;;test-verileri;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7208000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19424000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" adresine gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinition.kullanici_adresine_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1405000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kllanici walmart aramakutusuna \"calculator\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"calculator\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepdefinitions.kllanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2119000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepdefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          },
+          {
+            "name": "@ebay"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:12:38.456Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "walmart-arama;;test-verileri;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1852000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4443000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" adresine gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinition.kullanici_adresine_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1550000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kllanici walmart aramakutusuna \"watch\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"watch\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepdefinitions.kllanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepdefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          },
+          {
+            "name": "@ebay"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:12:46.702Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "walmart-arama;;test-verileri;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2317000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7086000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" adresine gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinition.kullanici_adresine_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1741000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kllanici walmart aramakutusuna \"flower\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"flower\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepdefinitions.kllanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepdefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          },
+          {
+            "name": "@ebay"
+          }
+        ]
+      }
+    ],
+    "name": "walmart arama",
+    "description": "",
+    "id": "walmart-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Walmart.feature",
+    "tags": [
+      {
+        "name": "@walmart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@ebay",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  }
+]]
